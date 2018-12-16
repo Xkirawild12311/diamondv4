@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+    style="@style/Widget.MaterialComponents.CardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="344dp"
+    android:layout_height="166dp"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    app:cardBackgroundColor="#fff"
+    app:cardElevation="8dp"
+    android:minHeight="200dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="97dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/categoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:fontFamily="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:text="SERVICIOS"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/txt_titulo_catalogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:text="Title goes here"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txt_detalle_catalogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:fontFamily="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:text="heresdssdsd sd sd s sd s dsdssddssdsdsddsdsds sdsd sds sdsdddwdqdqds"
+                    android:textColor="#000099"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="97dp"
+                android:layout_height="97dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_Catalogo"
+                    android:elevation="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/card1" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e5e5e5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp">
+
+            <android.support.design.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button"
+                app:cornerRadius="16dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACTION 1"
+                android:textSize="14sp" />
+
+
+            <android.support.design.button.MaterialButton
+                android:layout_marginStart="8dp"
+                style="@style/Widget.MaterialComponents.Button"
+                app:cornerRadius="16dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACTION 2"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</android.support.design.card.MaterialCardView>

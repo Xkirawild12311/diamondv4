@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorGreen">#36cb6d</color>
+    <color name="colorWhite">#fffffe</color>
+    <color name="colorWhiteM">#C8E6C9</color>
+    <color name="colorMar">#3cbeb4</color>
+    <color name="colorMarOscuro">#037e8d</color>
+    <color name="colorAzulOscurio">#042f77</color>
+    <color name="colorSuccesSnacBar">#4CAF50</color>
+    <color name="colorDangerSnacBar">#C2185B</color>
+
+</resources>

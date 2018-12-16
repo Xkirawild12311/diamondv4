@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DiamondsV2</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_about">About me</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--LOGIN-->
+    <string name="txt_email">Correo</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_login">INGRESAR</string>
+    <string name="txt_signup">REGISTRARSE</string>
+    <!--REGISTRO-->
+    <string name="txt_lastname">Apellido</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_dni">Dni</string>
+    <string name="txt_repassword">Confirmar Contraseña</string>
+
+    <!--IP DE LA MAQUINA-->
+    <string name="ipMaquina">http://192.168.1.17</string>
+    <string name="title_activity_tipo_vehiculo">TipoVehiculo</string>
+</resources>
